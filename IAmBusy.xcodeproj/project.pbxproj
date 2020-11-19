@@ -3,19 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32413DD081A9363C4A301B32 /* Pods_IAmBusy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4FC347BC8BCB15309A94FC8 /* Pods_IAmBusy.framework */; };
 		E7C9E2D5255629E60038994A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C9E2D4255629E60038994A /* AppDelegate.swift */; };
 		E7C9E2D7255629E60038994A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C9E2D6255629E60038994A /* SceneDelegate.swift */; };
 		E7C9E2D9255629E60038994A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C9E2D8255629E60038994A /* ViewController.swift */; };
 		E7C9E2DC255629E60038994A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7C9E2DA255629E60038994A /* Main.storyboard */; };
 		E7C9E2DE255629F00038994A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7C9E2DD255629F00038994A /* Assets.xcassets */; };
 		E7C9E2E1255629F00038994A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7C9E2DF255629F00038994A /* LaunchScreen.storyboard */; };
+		E7C9E2EA25598D3A0038994A /* ViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C9E2E925598D3A0038994A /* ViewViewController.swift */; };
+		E7C9E2ED25598E190038994A /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C9E2EC25598E190038994A /* EntryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4724864BE0012F9E6CE71490 /* Pods-IAmBusy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IAmBusy.debug.xcconfig"; path = "Target Support Files/Pods-IAmBusy/Pods-IAmBusy.debug.xcconfig"; sourceTree = "<group>"; };
+		4D84E90029B4B8B4A601B5E0 /* Pods-IAmBusy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IAmBusy.release.xcconfig"; path = "Target Support Files/Pods-IAmBusy/Pods-IAmBusy.release.xcconfig"; sourceTree = "<group>"; };
 		E7C9E2D1255629E60038994A /* IAmBusy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IAmBusy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7C9E2D4255629E60038994A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7C9E2D6255629E60038994A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,9 @@
 		E7C9E2DD255629F00038994A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7C9E2E0255629F00038994A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7C9E2E2255629F00038994A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7C9E2E925598D3A0038994A /* ViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewViewController.swift; sourceTree = "<group>"; };
+		E7C9E2EC25598E190038994A /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		F4FC347BC8BCB15309A94FC8 /* Pods_IAmBusy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IAmBusy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32413DD081A9363C4A301B32 /* Pods_IAmBusy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CC404442CDF74F4141A076F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4FC347BC8BCB15309A94FC8 /* Pods_IAmBusy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4400BD10F4EED96D6B0129F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4724864BE0012F9E6CE71490 /* Pods-IAmBusy.debug.xcconfig */,
+				4D84E90029B4B8B4A601B5E0 /* Pods-IAmBusy.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = SOURCE_ROOT;
+		};
 		E7C9E2C8255629E60038994A = {
 			isa = PBXGroup;
 			children = (
 				E7C9E2D3255629E60038994A /* IAmBusy */,
 				E7C9E2D2255629E60038994A /* Products */,
+				4400BD10F4EED96D6B0129F1 /* Pods */,
+				1CC404442CDF74F4141A076F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +91,8 @@
 				E7C9E2DD255629F00038994A /* Assets.xcassets */,
 				E7C9E2DF255629F00038994A /* LaunchScreen.storyboard */,
 				E7C9E2E2255629F00038994A /* Info.plist */,
+				E7C9E2EC25598E190038994A /* EntryViewController.swift */,
+				E7C9E2E925598D3A0038994A /* ViewViewController.swift */,
 			);
 			path = IAmBusy;
 			sourceTree = "<group>";
@@ -74,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7C9E2E5255629F00038994A /* Build configuration list for PBXNativeTarget "IAmBusy" */;
 			buildPhases = (
+				94C2E93141706F646DE4A35D /* [CP] Check Pods Manifest.lock */,
 				E7C9E2CD255629E60038994A /* Sources */,
 				E7C9E2CE255629E60038994A /* Frameworks */,
 				E7C9E2CF255629E60038994A /* Resources */,
+				566506869CCE034D24067A39 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,12 +164,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		566506869CCE034D24067A39 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IAmBusy/Pods-IAmBusy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IAmBusy/Pods-IAmBusy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IAmBusy/Pods-IAmBusy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94C2E93141706F646DE4A35D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IAmBusy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E7C9E2CD255629E60038994A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E7C9E2D9255629E60038994A /* ViewController.swift in Sources */,
+				E7C9E2ED25598E190038994A /* EntryViewController.swift in Sources */,
+				E7C9E2EA25598D3A0038994A /* ViewViewController.swift in Sources */,
 				E7C9E2D5255629E60038994A /* AppDelegate.swift in Sources */,
 				E7C9E2D7255629E60038994A /* SceneDelegate.swift in Sources */,
 			);
@@ -283,6 +359,7 @@
 		};
 		E7C9E2E6255629F00038994A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4724864BE0012F9E6CE71490 /* Pods-IAmBusy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +378,7 @@
 		};
 		E7C9E2E7255629F00038994A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D84E90029B4B8B4A601B5E0 /* Pods-IAmBusy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
