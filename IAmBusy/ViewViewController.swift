@@ -25,7 +25,8 @@ class ViewViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        //can you open the browser and go to your github account
+        //ill log off and come back later when u finished log in
         itemLabel.text = item?.item
         dateLabel.text = self.dateFormatter.string(from: item!.date)
         
